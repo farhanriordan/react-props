@@ -21,7 +21,7 @@ class ClassComponent extends React.Component {
   render() {
     return (
       <div>
-        <h1>Hello World</h1>
+        <h1>Hello World Dunia</h1>
         <h2>Hello {this.props.nama}</h2>
         <button onClick={this.handleMinus}>-</button>
         <span> {this.state.value} </span>
